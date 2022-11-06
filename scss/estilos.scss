@@ -1,0 +1,48 @@
+@import "barrader", "barraizq", "body", "general", "header", "responsive";
+
+.desafios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: list-item;
+    list-style: none;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .solo_para_ti {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: list-item;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .carousel-inner {
+    height: auto;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    width: auto;
+  }
+  
+  #seccion3 {
+    display: grid;
+    padding: 20px;
+    grid-template-areas: "caja1 . . " " . caja2 . " " . . caja3";
+    grid-template-columns: repeat 3, 2fr;
+    grid-template-rows: repeat 3, 2fr;
+  }
+  
+  #seccion3__tendencia1 {
+    grid-area: caja1;
+  }
+  
+  #seccion3__tendencia2 {
+    grid-area: caja2;
+  }
+  
+  #seccion3__tendencia3 {
+    grid-area: caja3;
+  }

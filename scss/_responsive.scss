@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+    #section3 {
+      display: flex;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    #menu ul li {
+      display: none;
+    }
+  }

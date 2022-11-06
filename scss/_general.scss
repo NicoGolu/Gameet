@@ -1,0 +1,50 @@
+/* Importaciones */
+
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #f5f5f5;
+
+  &:hover {
+    color: #11101d;
+    background: tomato;
+  }
+
+  img {
+    width: 220px;
+    height: 220px;
+    margin: 20px;
+    border-radius: 24px;
+  }
+}
+
+.titulo {
+  font-size: 46px;
+  margin: 20px;
+  padding: 0;
+  font-family: 'Gloria Hallelujah';
+  color: tomato;
+}
+
+footer {
+  background-color: #292929;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 10px;
+}
