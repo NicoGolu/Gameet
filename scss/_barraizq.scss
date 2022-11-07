@@ -29,3 +29,17 @@
       font-family: 'Gloria Hallelujah';
     }
   }
+
+.checkbtn {
+  font-size: 30px;
+  color: #fff;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+    display: none;
+}

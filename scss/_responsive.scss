@@ -1,11 +1,55 @@
-@media (max-width: 768px) {
-    #section3 {
-      display: flex;
-    }
-  }
+
   
   @media (max-width: 1200px) {
+    #menu ul li p {
+      display: none;
+    }
+    #buscador {
+      display: none;
+    }
+
+  }
+
+  @media (max-width: 970px) {
     #menu ul li {
       display: none;
     }
   }
+
+  @media (max-width: 768px){
+    .checkbtn{
+        display: block;
+    }
+
+   
+    ul{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        
+    }
+
+    #left_sidebar{
+      background-color: transparent;
+      
+    }
+
+    #right_sidebar{
+      right: -100%;
+    }
+
+    #check:checked ~ ul{
+        left:0;
+        background-color: #323232;
+        width: 100%;
+        height: 100vh;
+    }
+
+    main {
+      margin-left: 60px;
+    margin-right: 60px;
+    }
+    
+}
